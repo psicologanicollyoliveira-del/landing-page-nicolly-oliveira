@@ -28,18 +28,18 @@ export default function RootLayout({
     <html lang="pt-BR">
       <head>
         {/* Google Tag */}
-        <Script
+        <script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17697138635"
           strategy="afterInteractive"
         />
-        <Script id="google-ads-tag" strategy="afterInteractive">
+        <script id="google-ads-tag" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'AW-17697138635');
           `}
-        </Script>
+        </script>
       </head>
       <body
         className={`${quicksand.variable} ${fraunces.variable} antialiased`}
